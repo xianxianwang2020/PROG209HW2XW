@@ -7,28 +7,70 @@
   
 </head>
 
-<body >
-    
+<body>
+    <header> 
+            <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#Algebra">Algebra</a></li>
+                    <li><a href="#Data">Data</a></li>
+                    <li><a href="#Number">Number</a></li>
+                    <li><a href="#Dictionary">Dictionary</a></li>
+                    <li><a href="#Game">Game</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+    </header>
+        
     <section id="gamefield">
-    <h2> WHAT To KNOW YOUR FORTUNE Number ? </h2>
+            
+               <h2>WHAT IS YOUR FORTUNE NUMBER ?  </h2>
 
-   <p> Please enter a guessing number between 1-20.
-<br /><em><strong>(Remember</strong> you only can try up to 5 times) </em></p>
+                <p id="rule" > Please enter a guessing number between 1-20.
+                    <br>  <em>(<strong>Remember</strong> you only can try up to 5 times.) </em></p>
 
-   <input type="text" size="16" id="#input">
+                      <input type="text" size="20" id="#input">
    
-   <br /> 
-   <br />
+   <br> 
+    <br>   
+                     <button class="playerButton" value="playerCount" id="playerButton" onClick="game()" > submit </button>
         
-    <button value="playerCount" id="playerButton" onClick="game()" > submit </button>
+              <p id="output"></p>
         
-    <p id="output">
-        
-</section>    
+       
     
-<script src="index.js">
+       <script src="index.js">
+       </script> 
+
     
-</script>     
-        
-    </body>
+    <div class="main">
+           <img src="shuzi.jpg" alt="shuzi" width="40%" >
+            
+            <img src="jiagu.jpg" alt="jiagu" width="27%" height="30%" >
+
+        <p id="description">  <b><i> left:</i></b> Chinese ancient number counting table. 
+        <b> <i>  right</i></b>: oracal bone from 14th centrary BC of China, with number "547"carved on turtle back bone.
+</p>
+    </div>
+    </section>
+    <div class="rightside">
+            <h2> Math Practice Resource </h2>    
+            
+            <ul id="sidelink">
+              <li><a class="active" href="#home">Kindergarden</a></li>
+              <li><a class="active" href="#home">1st Grade</a></li>
+              <li><a class="active" href="#home">2nd Grade</a></li>
+              <li><a href="#news">3rd Grade</a></li>
+              <li><a href="#contact">4th Grade</a></li>
+              <li><a href="#news">5th Grade</a></li>
+              <li><a href="#contact">6th Grade</a></li>
+              <li><a href="#news">7th Grade</a></li>
+              <li><a href="#contact">8th Grade</a></li>
+              <li><a href="#news">Algebra</a></li>
+              <li><a href="#contact">Geometry</a></li>
+              <li><a href="#about">Pre-Calculus</a></li>
+              
+            </ul>
+   
+ <footer></footer>
+ </body>
+    
 </html>
