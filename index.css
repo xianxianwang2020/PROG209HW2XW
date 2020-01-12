@@ -74,7 +74,7 @@ h2{
 .main {  
     text-align: center;
     position: relative;
-    padding-top:0.1%
+    padding-top:0.1%;
     padding-bottom: 0.1%;
     
   }
@@ -97,7 +97,6 @@ h2{
  #description {
      position: relative;
     font-size: 20px;
-    font-size: 18px;
     text-align: center;
     float:center;
     width:auto;
@@ -114,7 +113,6 @@ h2{
     font-size: 20px;
     background-color: #e2a1d4;
     display: inline-flexbox;
-    border-left: 15%;
     border-radius: 5%;
 }
 
